@@ -127,7 +127,7 @@ public class Graph {
                     Arrays.sort(arr);
                 }
             }
-            for(int i=0; i< 3; i++){ // CHANGE THIS LOOP//check what paths match with the weights in the array
+            for(int i=0; i< 3; i++){ // check what paths match with the weights in the array
                 for(int j=0;j<pathsToPrint.size();j++)
                     if(arr[i]==pathsToPrint.get(j).getCost())
                         pathsInOrder.set(i,pathsToPrint.get(j));
